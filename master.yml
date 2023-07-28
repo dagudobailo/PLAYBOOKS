@@ -1,0 +1,10 @@
+
+---
+- name: Varios Locales
+  hosts: all
+  remote_user: root
+  tasks:
+  - include_tasks: /etc/ansible/PLAYBOOKS/firewalllocalhost.yml
+  - include_tasks: /etc/ansible/PLAYBOOKS/local.yml
+  - include_tasks: /etc/ansible/PLAYBOOKS/ping.yml
+

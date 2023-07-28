@@ -1,0 +1,6 @@
+---
+- name: Hardening 
+  hosts: planeta.pruebas.urjc.es
+  become: true
+  tasks:
+    - name: 

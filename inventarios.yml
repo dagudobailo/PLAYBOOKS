@@ -1,0 +1,6 @@
+
+---
+- name Clonar repositorio inventarios
+  git:
+    repo: 'https://github.com/dagudobailo/inventarios'
+    dest: /etc/ansible/PLAYBOOKS
